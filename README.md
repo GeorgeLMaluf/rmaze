@@ -2,16 +2,30 @@
 
 Uma aplicação Ruby para resolver o problema do rato no labirinto (Rat in a Maze)
 
-Para executar
+Para executar:
+```bash
 ruby rmaze.rb
+```
 
-O programa irá apresentar o labirinto na tela como o exemplo abaixo
+O programa irá apresentar o labirinto na tela como o exemplo abaixo:
+```
+....
+.#.#
+.##G
+....
+```
 
-. significa caminho livre
-'#' significa obstaculo
-G significa o objetivo
+* '.' Caminho livre
+* '#' Obstaculo
+* 'G' Objetivo
 
 Em seguida irá apresentar a resolução do labirinto
-S  significa o ponto inicial
-x  significa o caminho percorrido
-F  significa que atingiu o objetivo
+```
+S...
+x#.#
+x##F
+xxxx
+```
+* 'S' Ponto inicial
+* 'x' Caminho percorrido
+* 'F' Atingiu o objetivo
